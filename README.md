@@ -13,4 +13,15 @@ This tool is based on webvowl 1.1.7.
 2. Ontology -> Seletect ontology file -> choose your file
   ![usage2](./images/usage2.jpeg)
 3. If a static graph is required, press "Pause".
-#
+# Comments
+## Changes and options
+### webvowl.js 
+1. #8 line 360 from """var bgColor = that.backgroundColor()""" to """var bgColor = that.attributes()[0]"""
+2. #28 line 2293 from """var bgColor = that.backgroundColor()""" to """var bgColor = that.attributes()[0]"""
+Due to unknown bugs, the js script cannot read "backgroundColor" from input file. We use "attributes" to pass color to the draw method.
+### index.html
+Delete unused functions and attributes on the webpage. 
+### webvowl.ss
+line 8 for font size
+line 33 for default node color
+

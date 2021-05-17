@@ -18,9 +18,11 @@ This tool is based on webvowl 1.1.7.
 ### webvowl.js 
 1. #8 line 360 from """var bgColor = that.backgroundColor()""" to """var bgColor = that.attributes()[0]"""
 2. #28 line 2293 from """var bgColor = that.backgroundColor()""" to """var bgColor = that.attributes()[0]"""
-Due to unknown bugs, the js script cannot read "backgroundColor" from input file. We use "attributes" to pass color to the draw method.
+3. Due to unknown bugs, the js script cannot read "backgroundColor" from input file. We use "attributes" to pass color to the draw method. 
+4. purpose of the changes
 ### index.html
-Delete unused functions and attributes on the webpage. 
+Delete unused functions and attributes on the webpage. \n
+add which line
 ### webvowl.ss
 line 8 for font size
 line 33 for default node color

@@ -27,3 +27,8 @@ add which line
 line 8 for font size
 line 33 for default node color
 
+# Python script
+##To use
+1. put the csv/txt file and scripts in the same directory
+2. change the input file name in the script to the name of input
+

@@ -23,7 +23,7 @@ This tool is based on webvowl 1.1.7.
 Manage unused functions and attributes on the webpage.
 - Delete line 32-34; 418-441; 446; 449; 456
 - Delete class specification on line 444
-- Change '''Comment''' to '''Details'''; '''Name''' to '''Content'''; '''Domain''' to '''From'''; '''Range''' to '''To'''
+- Change """Comment""" to """Details"""; """Name""" to """Content"""; """Domain""" to """From"""; """Range""" to """To"""
 ### webvowl.ss
 line 8 for font size
 line 33 for default node color

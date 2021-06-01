@@ -16,13 +16,14 @@ This tool is based on webvowl 1.1.7.
 # Comments
 ## Changes and options
 ### webvowl.js 
-1. #8 line 360 from """var bgColor = that.backgroundColor()""" to """var bgColor = that.attributes()[0]"""
-2. #28 line 2293 from """var bgColor = that.backgroundColor()""" to """var bgColor = that.attributes()[0]"""
+1. Funtion #8 line 360 from """var bgColor = that.backgroundColor()""" to """var bgColor = that.attributes()[0]"""
+2. Function #28 line 2293 from """var bgColor = that.backgroundColor()""" to """var bgColor = that.attributes()[0]"""
 3. Due to unknown bugs, the js script cannot read "backgroundColor" from input file. We use "attributes" to pass color to the draw method. 
-4. purpose of the changes
 ### index.html
-Delete unused functions and attributes on the webpage. \n
-add which line
+Manage unused functions and attributes on the webpage.
+- Delete line 32-34; 418-441; 446; 449; 456
+- Delete class specification on line 444
+- Change '''Comment''' to '''Details'''; '''Name''' to '''Content'''; '''Domain''' to '''From'''; '''Range''' to '''To'''
 ### webvowl.ss
 line 8 for font size
 line 33 for default node color
